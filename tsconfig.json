@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "removeComments": true
+  }
+}
