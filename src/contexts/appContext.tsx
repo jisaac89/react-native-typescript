@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from 'react';
-import { CreateActions, IAction, IResetAction } from 'src/common/types';
+import { CreateActions, IAction, IResetAction } from '../../src/common/types';
 
 export interface IAppProviderState {
   isLoading: boolean;

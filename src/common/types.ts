@@ -6,4 +6,10 @@ export interface IAction<T, P = {}> {
   payload: P;
 }
 
+export interface INavigation {
+  navigation: {
+    navigate: (str: string) => void;
+  };
+}
+
 export type IResetAction = IAction<'reset'>;
